@@ -1,0 +1,112 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: rgb(15, 142, 12);
+  background: linear-gradient(
+    90deg,
+    rgba(15, 142, 12, 1) 0%,
+    rgba(0, 103, 56, 1) 51%,
+    rgba(116, 167, 64, 1) 85%
+  );
+}
+
+.sect_home, .sect_home1, .sect_home2 {
+    background-color: #74a740;
+-webkit-box-shadow: 1px 1px 32px 0px rgba(0,0,0,0.7);
+  -moz-box-shadow: 1px 1px 32px 0px rgba(0,0,0,0.7);
+  box-shadow: 1px 1px 32px 0px rgba(0,0,0,0.7);
+  margin: 50px;
+  padding: 20px 20px;
+  width: 200px;
+  height: 150px;
+  border-radius: 10px;
+  border: 2px solid #28292d;
+  transition: transform 0.3s ease-in-out;
+}
+
+.section_intro {
+  display: flex;
+  justify-content: center;
+  gap: auto;
+}
+
+.sect_home:hover, .sect_home1:hover, .sect_home2:hover {
+  transform: scale(1.05) ;
+}
+
+.info_title {
+  font-weight: bold;
+  font-size: 19px;
+  display: flex;
+  justify-content: center;
+}
+
+.info_title2 {
+  font-weight: bold;
+  font-size: 17px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.info_title3 {
+  font-size: 14px;
+  margin-top: 55px;
+  display: flex;
+  justify-content: center;
+}
+
+.section_IDC {
+    background-color: #74a740;
+    margin: 20px 150px;
+    padding: 20px 20px;
+    width: 550px;
+    height: 250px; 
+    border-radius: 10px;
+    border: 2px solid #28292d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .info_idc1 {
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px; 
+  }
+  
+  .flex-container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-around; 
+  }
+  
+  .img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+  
+  .img_idc img {
+    width: 150px; 
+    height: auto;
+  }
+  
+  .Grafico {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px; 
+    text-align: center; 
+  }
+  
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+  }
+  
+  .dados, .dados1 {
+    font-size: 14px;
+    margin: 0;
+    font-weight: 400;
+  }

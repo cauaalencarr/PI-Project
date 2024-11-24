@@ -1,0 +1,50 @@
+@media (max-width: 480px) {
+    .box {
+      width: 100%;
+      max-width: 280px;
+      padding: 15px;
+    }
+  
+    .logo img {
+      width: 80px;
+    }
+  
+    h3 {
+      font-size: 1.5rem;
+    }
+  
+    .input-box input {
+      font-size: 0.85rem;
+      padding: 15px 10px;
+    }
+  
+    input[type="submit"] {
+      font-size: 16px;
+      padding: 10px 0;
+    }
+  
+    .links a {
+      font-size: 0.75em;
+    }
+  }
+  
+  @media (max-width: 375px) {
+    .box {
+      width: 100%;
+      max-width: 320px;
+    }
+  
+    h3 {
+      font-size: 1.5rem;
+    }
+  
+    .input-box input {
+      font-size: 0.85rem;
+      padding: 15px;
+    }
+  
+    input[type="submit"] {
+      font-size: 16px;
+      padding: 12px 0;
+    }
+  }
