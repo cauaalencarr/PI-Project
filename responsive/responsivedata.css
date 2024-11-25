@@ -1,0 +1,105 @@
+@media screen and (max-width: 1024px) {
+  body {
+    overflow: scroll;
+  }
+
+  .formaside {
+    width: 70%;
+    margin: 5% 15%;
+    padding: 30px 20px;
+  }
+
+  .dataforms {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .field input {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .lateralresults {
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+  }
+
+  .submitbtt input {
+    width: 100%;
+  }
+
+  .formaside h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .formaside {
+    width: 80%;
+    margin: 5% 10%;
+    padding: 25px 15px;
+  }
+
+  .dataforms {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .field input {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  .lateralresults {
+    width: 100%;
+    margin-top: 20px;
+    padding: 15px;
+  }
+
+  .submitbtt input {
+    width: 100%;
+    font-size: 14px;
+    padding: 12px;
+  }
+
+  .formaside h1 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .formaside {
+    width: 84%;
+    margin: 5% 5%;
+    padding: 20px 10px;
+  }
+
+  .dataforms {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .field input {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  .lateralresults {
+    width: 80%;
+    margin-top: 20px;
+    padding: 15px;
+  }
+
+  .submitbtt input {
+    width: 100%;
+    font-size: 14px;
+    padding: 12px;
+  }
+
+  .formaside h1 {
+    font-size: 28px;
+  }
+}
