@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/reset.css" />
     <link rel="stylesheet" href="styles/stylehome.css" />
-    <link rel="stylesheet" href="styles/navmenu.css">
+    <link rel="stylesheet" href="styles/navmenu.css" />
+    <link rel="stylesheet" href="responsive/responsivehome.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -29,15 +30,29 @@
 
         <ul class="nav-links">
           <li>
-            <a href="home.html" title="home"><i class="fa-solid fa-house"></i></a>
+            <a href="home.html" title="home"
+              ><i class="fa-solid fa-house"></i
+            ></a>
           </li>
-          <li><a href="dispositivos.html" title="dispositivos"><i class="fa-solid fa-server"></i></a></li>
           <li>
-            <a href="dados.html" title="dados"><i class="fa-solid fa-database"></i></a>
+            <a href="dispositivos.html" title="dispositivos"
+              ><i class="fa-solid fa-server"></i
+            ></a>
           </li>
-          <li><a href="monitoramento.html" title="monitoramento"><i class="fa-solid fa-chart-simple"></i></a></li>
           <li>
-            <a href="pcontrole.html" title="painel de controle"><i class="fa-solid fa-gears"></i></a>
+            <a href="dados.html" title="dados"
+              ><i class="fa-solid fa-database"></i
+            ></a>
+          </li>
+          <li>
+            <a href="monitoramento.html" title="monitoramento"
+              ><i class="fa-solid fa-chart-simple"></i
+            ></a>
+          </li>
+          <li>
+            <a href="pcontrole.html" title="painel de controle"
+              ><i class="fa-solid fa-gears"></i
+            ></a>
           </li>
         </ul>
       </nav>
@@ -63,7 +78,8 @@
       </div>
     </section>
 
-    <section class="section_IDC">
+    <div class="analise-group">
+      <section class="section_IDC">
         <h1 class="info_idc1">DADOS DE CONSUMO</h1>
         <div class="flex-container">
           <div class="img-container">
@@ -76,11 +92,48 @@
             <p class="Grafico">Gráfico de dados</p>
           </div>
           <div class="text-container">
-            <p class="dados">• Ar-condicionado 80% de consumo<br /> Gastos: 20 mil</p>
-            <p class="dados1">• Lâmpadas 20% de consumo<br /> Gastos: 10 mil</p>
+            <p class="dados">
+              • Ar-condicionado 80% de consumo<br />
+              Gastos: 20 mil
+            </p>
+            <p class="dados1">
+              • Lâmpadas 20% de consumo<br />
+              Gastos: 10 mil
+            </p>
+            <button class="btn-analisar">Analisar</button>
           </div>
         </div>
       </section>
+
+      <section class="monit">
+        <h1 class="info_idc1">MONITORAMENTO DO SISTEMA</h1>
+        <div class="monit-topics">
+          <div class="monit-topic">
+            <span class="circle red"></span>
+            <p class="topic-text">20% manutenção necessária</p>
+          </div>
+          <div class="monit-topic">
+            <span class="circle purple"></span>
+            <p class="topic-text">30% desligados</p>
+          </div>
+          <div class="monit-topic">
+            <span class="circle blue"></span>
+            <p class="topic-text">50% funcionando</p>
+          </div>
+        </div>
+        <button class="btn-analisar">Analisar</button>
+      </section>
+
+      <section class="ar-dispositivo">
+        <h1 class="ar-title">A/R Dispositivo</h1>
+        <p class="ar-last-device">Último equipamento removido:</p>
+        <ul class="ar-details">
+          <li>30% de gastos de energia</li>
+          <li>20 dias utilizados</li>
+        </ul>
+        <button class="btn-analisar">Analisar</button>
+      </section>
+    </div>
 
     <script src="scripts.js" defer></script>
   </body>
