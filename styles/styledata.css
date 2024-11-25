@@ -7,6 +7,7 @@ body {
       rgba(0, 103, 56, 1) 51%,
       rgba(116, 167, 64, 1) 85%
     );
+    overflow: hidden;
   }
 
 .formaside {
