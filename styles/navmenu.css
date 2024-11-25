@@ -41,3 +41,36 @@
     border-radius: 5px;
     transform: scale(1.15);
   }
+
+    @media (max-width: 768px) {
+      
+      .nav-links {
+        gap: 10px; 
+        justify-content: center; 
+      }
+    
+      .nav-links li a {
+        font-size: 14px; 
+        padding: 5px 8px; 
+      }
+    
+      .logo img {
+        width: 45px; 
+      }
+    }
+    
+    @media (max-width: 480px) {
+      
+      .nav-links {
+        gap: 5px; 
+      }
+    
+      .nav-links li a {
+        font-size: 12px; 
+        padding: 4px 6px; 
+      }
+    
+      .logo img {
+        width: 40px; 
+      }
+    }
