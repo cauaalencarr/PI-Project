@@ -1,0 +1,116 @@
+@media (max-width: 1200px) {
+  .sect_home,
+  .sect_home1,
+  .sect_home2 {
+    width: 200px;
+    height: 160px;
+    margin: 25px;
+  }
+
+  .section_IDC,
+  .monit,
+  .ar-dispositivo {
+    width: 70%;
+  }
+}
+
+@media (max-width: 768px) {
+  .sect_home,
+  .sect_home1,
+  .sect_home2 {
+    width: 180px;
+    height: 140px;
+    margin: 20px;
+  }
+
+  .section_IDC,
+  .monit,
+  .ar-dispositivo {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .btn-analisar {
+    font-size: 14px;
+    padding: 8px 15px;
+  }
+
+  .ar-title {
+    font-size: 20px;
+  }
+
+  .ar-details li {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+
+  .sect_home,
+  .sect_home1,
+  .sect_home2 {
+    width: 150px;
+    height: 120px;
+    margin: 15px;
+    padding: 10px;
+  }
+
+  .info_title {
+    font-size: 16px;
+  }
+
+  .info_title2,
+  .info_title3 {
+    font-size: 14px;
+  }
+
+  .section_IDC,
+  .monit,
+  .ar-dispositivo {
+    width: 90%;
+    padding: 10px;
+  }
+
+  .ar-title {
+    font-size: 18px;
+  }
+
+  .btn-analisar {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+
+  .ar-details li {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 320px) {
+  .sect_home,
+  .sect_home1,
+  .sect_home2 {
+    width: 120px;
+    height: 100px;
+    margin: 10px;
+  }
+
+  .info_title {
+    font-size: 14px;
+  }
+
+  .btn-analisar {
+    font-size: 10px;
+    padding: 5px 8px;
+  }
+
+  .ar-title {
+    font-size: 16px;
+  }
+
+  .ar-details li {
+    font-size: 10px;
+  }
+}
