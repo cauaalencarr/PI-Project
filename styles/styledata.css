@@ -1,0 +1,108 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background: rgb(15, 142, 12);
+    background: linear-gradient(
+      90deg,
+      rgba(15, 142, 12, 1) 0%,
+      rgba(0, 103, 56, 1) 51%,
+      rgba(116, 167, 64, 1) 85%
+    );
+  }
+
+.formaside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 20px;
+    background-color: #74a740;
+    margin: 14% 20% 20% 20%;
+    border: 2px solid #28292d;
+    -webkit-box-shadow: 1px 1px 32px 0px rgba(0,0,0,0.7);
+    -moz-box-shadow: 1px 1px 32px 0px rgba(0,0,0,0.7);
+    box-shadow: 1px 1px 32px 0px rgba(0,0,0,0.7);
+    border-radius: 10px;
+    width: 60%;
+}
+
+.formaside h1{
+    font-size: 50px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.dataforms{
+    display: flex;
+    gap: 80px;
+    max-width: 800px;
+    justify-content: center;
+    align-items: center;
+}
+
+.field input{
+  width: 400px;
+  border-radius: 20px;
+  padding: 8px 20px 8px 20px;
+
+  
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  
+}
+
+.submitbtt input{
+  background-color:rgb(0, 0, 0);
+  color: rgba(116, 167, 64, 1);
+  font-weight: 800;
+  width: 200px;
+  margin-top: 16px;
+}
+
+.articletittle{
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.tittle{
+  padding: 16px 8px;
+}
+
+.lateralresults{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  -webkit-box-shadow: 1px 1px 32px 0px rgba(0,0,0,0.7);
+    -moz-box-shadow: 1px 1px 32px 0px rgba(0,0,0,0.7);
+    box-shadow: 1px 1px 32px 0px rgba(0,0,0,0.7);
+  border-radius: 10px;
+  border: 2px solid black;
+  background-color: rgb(122, 209, 122);
+  width: 30%;
+}
+
+.dataforms aside ul li h2{
+  font-weight: 700;
+  padding-bottom: 8px;
+}
+
+.dataforms aside ul li p{
+  font-size: 12px;
+  padding-bottom: 4px;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px;
+  border-top: 2px solid black;
+  gap: 2px;
+
+}
