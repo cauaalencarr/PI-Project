@@ -1,0 +1,90 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: rgb(15, 142, 12);
+  background: linear-gradient(
+    90deg,
+    rgba(15, 142, 12, 1) 0%,
+    rgba(0, 103, 56, 1) 51%,
+    rgba(116, 167, 64, 1) 85%
+  );
+  height: 100vh;
+}
+
+.graphics h3 {
+  font-weight: 700;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.infotittle {
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.energycons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 40px;
+  background-color: #74a740;
+  margin:auto;
+  border: 2px solid #28292d;
+  -webkit-box-shadow: 1px 1px 32px 0px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 1px 1px 32px 0px rgba(0, 0, 0, 0.7);
+  box-shadow: 1px 1px 32px 0px rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  width: 60%;
+}
+.profile {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.iconp {
+  display: flex;
+  width: 40px;
+  padding-right: 10px;
+  padding-top: 6px;
+}
+.grafig {
+  width: 80%;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.lateralinfo {
+  display: flex;
+  flex-direction: column;
+  background-color: #b0bea2;
+  padding: 40px 20px 40px 20px;
+  border-radius: 10px;
+  gap: 6px;
+}
+
+.yellowinfo {
+  background-color: rgba(255, 255, 0, 0.212);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.redinfo {
+  background-color: rgba(255, 0, 0, 0.182);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.internalinfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 4px;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  gap: 12px;
+  font-weight: 700;
+  background-color: rgb(240, 246, 246);
+  padding: 10% 12%;
+}
