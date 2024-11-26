@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/reset.css" />
-    <link rel="stylesheet" href="#" />
-    <link rel="stylesheet" href="styles/navmenu.css">
+    <link rel="stylesheet" href="styles/navmenu.css" />
+    <link rel="stylesheet" href="styles/stylecontrolpanel.css" />
+    <link rel="stylesheet" href="responsive/responsivecontrolp.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,33 +18,97 @@
       crossorigin="anonymous"
     ></script>
     <title>EcoEdificio</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav class="menu">
-          <div class="logo">
-            <figure>
-              <img src="imgs/logo.png" alt="projectlogo" />
-            </figure>
-          </div>
-  
-          <ul class="nav-links">
-            <li>
-              <a href="home.html" title="home"><i class="fa-solid fa-house"></i></a>
-            </li>
-            <li><a href="dispositivos.html" title="dispositivos"><i class="fa-solid fa-server"></i></a></li>
-            <li>
-              <a href="dados.html" title="dados"><i class="fa-solid fa-database"></i></a>
-            </li>
-            <li><a href="monitoramento.html" title="monitoramento"><i class="fa-solid fa-chart-simple"></i></a></li>
-            <li>
-              <a href="pcontrole.html" title="painel de controle"><i class="fa-solid fa-gears"></i></a>
-            </li>
-          </ul>
-        </nav>
-      </header>
+      <nav class="menu">
+        <div class="logo">
+          <figure>
+            <img src="imgs/logo.png" alt="projectlogo" />
+          </figure>
+        </div>
 
-      
-      <script src="scripts.js" defer></script>
-</body>
+        <ul class="nav-links">
+          <li>
+            <a href="home.html" title="home"
+              ><i class="fa-solid fa-house"></i
+            ></a>
+          </li>
+          <li>
+            <a href="dispositivos.html" title="dispositivos"
+              ><i class="fa-solid fa-server"></i
+            ></a>
+          </li>
+          <li>
+            <a href="dados.html" title="dados"
+              ><i class="fa-solid fa-database"></i
+            ></a>
+          </li>
+          <li>
+            <a href="monitoramento.html" title="monitoramento"
+              ><i class="fa-solid fa-chart-simple"></i
+            ></a>
+          </li>
+          <li>
+            <a href="pcontrole.html" title="painel de controle"
+              ><i class="fa-solid fa-gears"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="profile">
+      <figure>
+        <img
+          class="iconp"
+          src="imgs/profile-circle-svgrepo-com.svg"
+          alt="Perfil Cliente"
+        />
+      </figure>
+    </div>
+    <section class="energycons">
+      <div class="graphics">
+        <h3>Consumo Energético</h3>
+        <figure>
+          <img
+            class="grafig"
+            src="imgs/graphic1.jpg"
+            alt="Gráfico do consumo energético"
+          />
+        </figure>
+        <h3>Comparativo por setor</h3>
+        <figure>
+          <img
+            class="grafig"
+            src="imgs/graphic2.jpg"
+            alt="Comparativo do consumo por setor"
+          />
+        </figure>
+      </div>
+      <aside class="lateralinfo">
+        <h3 class="infotittle">Alertas e Sugestões</h3>
+        <p class="yellowinfo">
+          Alerta: Ar-condicionado do 3º andar consumindo 25% acima da média
+        </p>
+        <p class="yellowinfo">Horário de pico: Consumo elevado entre 13h-15h</p>
+        <p class="redinfo">
+          Sugestão: Reduzir uso de equipamentos de TI no período da tarde
+        </p>
+        <p class="redinfo">Economia Potencial: Substituir iluminação por LED</p>
+        <h3 class="infotittle">Métricas de Eficiência</h3>
+        <div class="internalinfo">
+          <div class="block">
+            <p>Custo Estimado</p>
+            <p>R$ 4.250,00</p>
+          </div>
+          <div class="block">
+            <p>Meta de Economia</p>
+            <p>40%</p>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <script src="scripts.js" defer></script>
+  </body>
 </html>
