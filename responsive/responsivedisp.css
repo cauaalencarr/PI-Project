@@ -1,0 +1,116 @@
+@media (max-width: 1024px) {
+  main {
+    padding: 15px;
+  }
+
+  .form-group {
+    width: 99%;
+  }
+
+  .device-form {
+    width: 80%;
+    padding: 20px;
+  }
+
+  h1,
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  button {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+  input {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .form-buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .device-list,
+  .device-status {
+    padding: 15px;
+  }
+
+  li {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .form-group {
+    width: 99%;
+  }
+
+  .device-form {
+    width: 90%;
+    padding: 15px;
+  }
+
+  h1,
+  h2 {
+    font-size: 22px;
+  }
+
+  button {
+    padding: 8px 14px;
+    font-size: 13.6px;
+  }
+
+  input {
+    font-size: 13.6px;
+    padding: 8px;
+  }
+
+  li {
+    font-size: 13.6px;
+    padding: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .form-group {
+    width: 97%;
+  }
+
+  .device-form {
+    width: 95%;
+    padding: 10px;
+  }
+
+  h1,
+  h2 {
+    font-size: 19.2px;
+  }
+
+  input {
+    font-size: 12.8px;
+    padding: 6px;
+  }
+
+  button {
+    padding: 6px 12px;
+    font-size: 12.8px;
+  }
+
+  .form-buttons {
+    gap: 8px;
+  }
+
+  li {
+    font-size: 12.8px;
+    padding: 6px;
+  }
+
+  .device-list,
+  .device-status {
+    padding: 10px;
+  }
+}
