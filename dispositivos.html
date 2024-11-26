@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="styles/reset.css" />
     <link rel="stylesheet" href="styles/navmenu.css">
     <link rel="stylesheet" href="styles/gerenciar-dispositivos.css">
+    <link rel="stylesheet" href="responsive/responsivedisp.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,7 +17,7 @@
       src="https://kit.fontawesome.com/f74aac3c41.js"
       crossorigin="anonymous"
     ></script>
-    <title>EcoEdificio - Gerenciar Dispositivos</title>
+    <title>EcoEdificio</title>
 </head>
 <body>
     <header>
@@ -37,45 +38,49 @@
     </header>
 
     <main>
-    <section class="device-form">
-    <h1>Gerenciar Dispositivos</h1>
-    <form id="device-form">
-        <div class="form-group">
-            <label for="identifier">Identificador:</label>
-            <input type="text" id="identifier" placeholder="Digite o identificador" required />
-        </div>
-        <div class="form-group">
-            <label for="equipment">Equipamento:</label>
-            <input type="text" id="equipment" placeholder="Digite o equipamento" required />
-        </div>
-        <div class="form-group">
-            <label for="location">Localização:</label>
-            <input type="text" id="location" placeholder="Digite a localização" required />
-        </div>
-        <div class="form-buttons">
-            <button type="button" id="add-device">Adicionar Dispositivo</button>
-            <button type="button" id="remove-device">Remover Dispositivo</button>
-        </div>
-    </form>
-</section>
-
-
-        <section class="device-list">
-            <h2>Lista de Dispositivos</h2>
-            <ul id="devices">
-         </form>
+      <section class="device-form">
+          <h1>Gerenciar Dispositivos</h1>
+          <form id="device-form">
+              <div class="form-group">
+                  <label for="identifier">Identificador:</label>
+                  <input type="text" id="identifier" placeholder="Digite o identificador" required />
+              </div>
+              <div class="form-group">
+                  <label for="equipment">Equipamento:</label>
+                  <input type="text" id="equipment" placeholder="Digite o equipamento" required />
+              </div>
+              <div class="form-group">
+                  <label for="location">Localização:</label>
+                  <input type="text" id="location" placeholder="Digite a localização" required />
+              </div>
+              <div class="form-buttons">
+                  <button type="button" id="add-device">Adicionar Dispositivo</button>
+                  <button type="button" id="remove-device">Remover Dispositivo</button>
+              </div>
           </form>
-        </section>
+      </section>
 
-        <section class="device-list">
-            <h2>Status de Dispositivos</h2>
-            <ul id="devices">
-         </form>
-         
-  
-            </ul>
-        </section>
-    </main>
+      <section class="device-list">
+          <h2>Lista de Dispositivos</h2>
+          <ul id="devices">
+              <li>
+                  <span>Identificador: Lampada-Sala 1</span>
+                  <span>Status: <span class="status ativo">Ativo</span></span>
+                  <button class="remove-button">Remover</button>
+              </li>
+          </ul>
+      </section>
+
+      <section class="device-status">
+          <h2>Status de Dispositivos</h2>
+          <ul id="status-list">
+              <li>
+                  <span>Identificador: Camera-Escritório 1</span>
+                  <span>Status: <span class="status inativo">Inativo</span></span>
+              </li>
+          </ul>
+      </section>
+  </main>
 
     <script src="scripts.js" defer></script>
 </body>
