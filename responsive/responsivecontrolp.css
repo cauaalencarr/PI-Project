@@ -1,0 +1,165 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  .energycons {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 30px;
+    width: 90%;
+    gap: 20px;
+  }
+
+  .graphics {
+    width: 60%;
+    padding-right: 10px;
+  }
+
+  .graphics h3 {
+    font-size: 24px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  .grafig {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border: 1px solid black;
+  }
+
+  .lateralinfo {
+    width: 35%;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .yellowinfo,
+  .redinfo {
+    font-size: 16px;
+    padding: 15px;
+  }
+
+  .internalinfo {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .block {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .iconp {
+    width: 35px;
+  }
+}
+
+@media (max-width: 768px) {
+  .energycons {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 90%;
+  }
+
+  .graphics {
+    width: 100%;
+  }
+
+  .graphics h3 {
+    font-size: 21px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .grafig {
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+    border: 1px solid black;
+  }
+
+  .lateralinfo {
+    width: 100%;
+    padding: 15px;
+    gap: 15px;
+  }
+
+  .yellowinfo,
+  .redinfo {
+    font-size: 14px;
+    padding: 12px;
+  }
+
+  .internalinfo {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .block {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+  }
+
+  .iconp {
+    width: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .energycons {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 90%;
+    gap: 15px;
+  }
+
+  .graphics {
+    width: 100%;
+  }
+
+  .graphics h3 {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .grafig {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    border: 1px solid black;
+  }
+
+  .lateralinfo {
+    width: 100%;
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .yellowinfo,
+  .redinfo {
+    font-size: 13px;
+    padding: 10px;
+    text-align: left;
+  }
+
+  .internalinfo {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .block {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .iconp {
+    width: 25px;
+  }
+}
