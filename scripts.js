@@ -20,4 +20,15 @@ document.addEventListener("DOMContentLoaded",() => {
   });
 });
 
+document.addEventListener("DOMContentLoaded", () => {
+    const points = document.querySelectorAll(".status-point");
+
+    setInterval(() => {
+        points.forEach(point => {
+            const isActive = point.dataset.status === "Ativo";
+            point.dataset.status = isActive ? "Inativo" : "Ativo";
+            point.style.backgroundColor = isActive ? "red" : "green";
+        });
+    }, 2000);
+});
 
