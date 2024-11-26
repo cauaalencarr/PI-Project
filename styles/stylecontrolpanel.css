@@ -27,7 +27,7 @@ body {
   justify-content: center;
   padding: 40px 40px;
   background-color: #74a740;
-  margin:auto;
+  margin:40px auto;
   border: 2px solid #28292d;
   -webkit-box-shadow: 1px 1px 32px 0px rgba(0, 0, 0, 0.7);
   -moz-box-shadow: 1px 1px 32px 0px rgba(0, 0, 0, 0.7);
@@ -35,10 +35,7 @@ body {
   border-radius: 10px;
   width: 60%;
 }
-.profile {
-  display: flex;
-  flex-direction: row-reverse;
-}
+
 .iconp {
   display: flex;
   width: 40px;
@@ -86,5 +83,5 @@ body {
   gap: 12px;
   font-weight: 700;
   background-color: rgb(240, 246, 246);
-  padding: 10% 12%;
+  padding: 30px;
 }
