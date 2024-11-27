@@ -9,6 +9,14 @@ body {
   );
 }
 
+h3{
+  margin: 20px auto;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  color: white;
+}
+
 .sect_home,
 .sect_home1,
 .sect_home2 {
