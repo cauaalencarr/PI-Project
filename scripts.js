@@ -20,6 +20,10 @@ document.addEventListener("DOMContentLoaded",() => {
   });
 });
 
+function navigateTo(url) {
+  window.location.href = url;
+}
+
 document.addEventListener("DOMContentLoaded", function () {
   const statusPoints = document.querySelectorAll(".status-point");
 
