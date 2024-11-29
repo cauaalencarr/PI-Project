@@ -17,8 +17,11 @@ body {
 }
 
 .infotittle {
-  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
   padding-bottom: 10px;
+  padding-top: 12px;
 }
 
 h1{
@@ -57,12 +60,17 @@ h1{
 }
 
 .lateralinfo {
+  color: #fff;
   display: flex;
   flex-direction: column;
-  background-color: #b0bea2;
-  padding: 40px 20px 40px 20px;
+  background: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  padding: 10px 20px 40px 20px;
   border-radius: 10px;
   gap: 6px;
+  -webkit-box-shadow: 1px 1px 32px 0px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 1px 1px 32px 0px rgba(0, 0, 0, 0.7);
+  box-shadow: 1px 1px 32px 0px rgba(0, 0, 0, 0.7);
 }
 
 .yellowinfo {
@@ -85,6 +93,7 @@ h1{
 }
 
 .block {
+  color: black;
   display: flex;
   flex-direction: column;
   border-radius: 8px;
