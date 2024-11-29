@@ -1,110 +1,220 @@
 <!DOCTYPE html>
+
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/reset.css" />
-    <link rel="stylesheet" href="styles/monitoramento.css" />
-    <link rel="stylesheet" href="styles/navmenu.css" />
-    <link rel="stylesheet" href="responsive/responsivemonit.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <script
-      src="https://kit.fontawesome.com/f74aac3c41.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="styles/monitoring.css" />
-    <title>Monitoramento EcoEdifício</title>
-  </head>
-  <body>
-    <header>
-      <nav class="menu">
-        <div class="logo">
-          <figure>
-            <img src="imgs/logo.png" alt="projectlogo" />
-          </figure>
-        </div>
-        <ul class="nav-links">
-          <li>
-            <a href="home.html" title="home"
-              ><i class="fa-solid fa-house"></i
-            ></a>
-          </li>
-          <li>
-            <a href="dispositivos.html" title="dispositivos"
-              ><i class="fa-solid fa-server"></i
-            ></a>
-          </li>
-          <li>
-            <a href="dados.html" title="dados"
-              ><i class="fa-solid fa-database"></i
-            ></a>
-          </li>
-          <li>
-            <a href="monitoramento.html" title="monitoramento"
-              ><i class="fa-solid fa-chart-simple"></i
-            ></a>
-          </li>
-          <li>
-            <a href="pcontrole.html" title="painel de controle"
-              ><i class="fa-solid fa-gears"></i
-            ></a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section class="monitoring">
-        <h1>MONITORAMENTO DO EDIFÍCIO</h1>
-        <div class="monitoring-container">
-          <div class="building-container">
-            <img
-              src="imgs/building.png"
-              alt="Imagem do Edifício"
-              class="building-image"
-            />
 
-            <div
-              class="status-point"
-              style="top: 20%; left: 30%"
-              data-status="Ativo"
-              title="Sensor Ativo"
-            ></div>
-            <div
-              class="status-point"
-              style="top: 50%; left: 60%"
-              data-status="Inativo"
-              title="Sensor Inativo"
-            ></div>
-            <div
-              class="status-point"
-              style="top: 70%; left: 40%"
-              data-status="Ativo"
-              title="Sensor Ativo"
-            ></div>
-          </div>
+  <head>
 
-          <div class="alerts-panel">
-            <h2>Alertas em Tempo Real</h2>
-            <ul class="alerts-list">
-              <li>Sensor A em manutenção.</li>
-              <li>Sensor B desligado.</li>
-            </ul>
-            <h2>Filtros</h2>
-            <div class="filters">
-              <button data-filter="Ativo">Sensores Ativos</button>
-              <button data-filter="Inativo">Sensores Inativos</button>
-              <button data-filter="Todos">Todos os Sensores</button>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
+    <meta charset="UTF-8" />
 
-    <script src="scripts.js" defer></script>
-  </body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="styles/reset.css" />
+
+    <link rel="stylesheet" href="styles/monitoramento.css" />
+
+    <link rel="stylesheet" href="styles/navmenu.css" />
+
+    <link rel="stylesheet" href="responsive/responsivemonit.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+
+      rel="stylesheet"
+
+    />
+
+    <script
+
+      src="https://kit.fontawesome.com/f74aac3c41.js"
+
+      crossorigin="anonymous"
+
+    ></script>
+
+    <link rel="stylesheet" href="styles/monitoring.css" />
+
+    <title>Monitoramento EcoEdifício</title>
+
+  </head>
+
+  <body>
+
+    <header>
+
+      <nav class="menu">
+
+        <div class="logo">
+
+          <figure>
+
+            <img src="imgs/logo.png" alt="projectlogo" />
+
+          </figure>
+
+        </div>
+
+        <ul class="nav-links">
+
+          <li>
+
+            <a href="home.html" title="home"
+
+              ><i class="fa-solid fa-house"></i
+
+            ></a>
+
+          </li>
+
+          <li>
+
+            <a href="dispositivos.html" title="dispositivos"
+
+              ><i class="fa-solid fa-server"></i
+
+            ></a>
+
+          </li>
+
+          <li>
+
+            <a href="dados.html" title="dados"
+
+              ><i class="fa-solid fa-database"></i
+
+            ></a>
+
+          </li>
+
+          <li>
+
+            <a href="monitoramento.html" title="monitoramento"
+
+              ><i class="fa-solid fa-chart-simple"></i
+
+            ></a>
+
+          </li>
+
+          <li>
+
+            <a href="pcontrole.html" title="painel de controle"
+
+              ><i class="fa-solid fa-gears"></i
+
+            ></a>
+
+          </li>
+
+        </ul>
+
+      </nav>
+
+    </header>
+
+    <main>
+
+      <section class="monitoring">
+
+        <h1>MONITORAMENTO DO EDIFÍCIO</h1>
+
+        <div class="monitoring-container">
+
+          <div class="building-container">
+
+            <img
+
+              src="imgs/building.png"
+
+              alt="Imagem do Edifício"
+
+              class="building-image"
+
+            />
+
+
+            <!-- Sensores na imagem -->
+
+            <div
+
+              class="status-point"
+
+              style="top: 20%; left: 30%"
+
+              data-status="Ativo"
+
+              title="Sensor Ativo"
+
+            ></div>
+
+            <div
+
+              class="status-point"
+
+              style="top: 50%; left: 60%"
+
+              data-status="Inativo"
+
+              title="Sensor Inativo"
+
+            ></div>
+
+            <div
+
+              class="status-point"
+
+              style="top: 70%; left: 40%"
+
+              data-status="Ativo"
+
+              title="Sensor Ativo"
+
+            ></div>
+
+          </div>
+
+
+          <div class="alerts-panel">
+
+            <h2>Alertas em Tempo Real</h2>
+
+            <ul class="alerts-list">
+
+              <li>Sensor A em manutenção.</li>
+
+              <li>Sensor B desligado.</li>
+
+            </ul>
+
+            <h2>Filtros</h2>
+
+            <div class="filters">
+
+              <button data-filter="Ativo">Sensores Ativos</button>
+
+              <button data-filter="Inativo">Sensores Inativos</button>
+
+              <button data-filter="Todos">Todos os Sensores</button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+    </main>
+
+
+    <script src="scripts.js" defer></script>
+
+  </body>
+
 </html>
+
+
