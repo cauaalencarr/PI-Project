@@ -20,67 +20,29 @@ document.addEventListener("DOMContentLoaded",() => {
   });
 });
 
-document.addEventListener("DOMContentLoaded", () => {
-    const points = document.querySelectorAll(".status-point");
-
-    setInterval(() => {
-        points.forEach(point => {
-            const isActive = point.dataset.status === "Ativo";
-            point.dataset.status = isActive ? "Inativo" : "Ativo";
-            point.style.backgroundColor = isActive ? "red" : "green";
-        });
-    }, 2000);
-});
-
-
-function navigateTo(url) {
-  window.location.href = url;
-}
-
-
-
 document.addEventListener("DOMContentLoaded", function () {
+  const statusPoints = document.querySelectorAll(".status-point");
 
-  const statusPoints = document.querySelectorAll(".status-point");
+  const filterButtons = document.querySelectorAll(".filters button");
 
-  const filterButtons = document.querySelectorAll(".filters button");
+  const filterSensors = (status) => {
+    statusPoints.forEach((point) => {
+      if (status === "Todos") {
+        point.style.display = "block";
+      } else if (point.getAttribute("data-status") === status) {
+        point.style.display = "block";
+      } else {
+        point.style.display = "none";
+      }
+    });
+  };
 
+  filterButtons.forEach((button) => {
+    button.addEventListener("click", (e) => {
+      const filter = e.target.getAttribute("data-filter");
 
- 
-  const filterSensors = (status) => {
-
-    statusPoints.forEach((point) => {
-
-      if (status === "Todos") {
-
-        point.style.display = "block";
-
-      } else if (point.getAttribute("data-status") === status) {
-
-        point.style.display = "block";
-
-      } else {
-
-        point.style.display = "none"; 
-
-      }
-
-    });
-
-  };
-
-  filterButtons.forEach((button) => {
-
-    button.addEventListener("click", (e) => {
-
-      const filter = e.target.getAttribute("data-filter");
-
-      filterSensors(filter);
-
-    });
-
-  });
-  filterSensors("Todos");
-
+      filterSensors(filter);
+    });
+  });
+  filterSensors("Todos");
 });
-
