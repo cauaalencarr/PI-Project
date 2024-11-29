@@ -32,3 +32,9 @@ document.addEventListener("DOMContentLoaded", () => {
     }, 2000);
 });
 
+
+function navigateTo(url) {
+  window.location.href = url;
+}
+
+
